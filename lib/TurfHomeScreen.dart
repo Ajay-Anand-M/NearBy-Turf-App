@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:nearbyturfs/Notifications.dart';
-import 'package:nearbyturfs/Trash/homepage.dart';
+
 import 'package:nearbyturfs/TurfDataModel.dart';
 import 'package:nearbyturfs/about_us_page.dart';
 import 'package:nearbyturfs/updates_page.dart';
 
-import 'MyDrawerList.dart';
+
 import 'TurfDetails.dart';
 
 class TurfHomeScreen extends StatefulWidget {
