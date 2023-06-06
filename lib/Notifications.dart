@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:nearbyturfs/TurfHomeScreen.dart';
-import 'package:nearbyturfs/main.dart';
+
 
 class NotificationPage extends StatelessWidget {
   const NotificationPage({Key? key}) : super(key: key);
@@ -8,7 +8,7 @@ class NotificationPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      drawer: MyNavigationDrawer(),
+      drawer: const MyNavigationDrawer(),
       appBar: AppBar(
         title: const Text('Notifications'),
         backgroundColor: Colors.green,
